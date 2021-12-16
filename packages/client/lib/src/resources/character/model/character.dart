@@ -62,17 +62,5 @@ class Character extends Equatable {
   final List<Url> urls;
 
   @override
-  List<Object?> get props => [
-        id,
-        name,
-        description,
-        modified,
-        resourceURI,
-        urls,
-        thumbnail,
-        comics,
-        series,
-        stories,
-        events,
-      ];
+  List<Object?> get props => [id, name, description, modified, resourceURI];
 }

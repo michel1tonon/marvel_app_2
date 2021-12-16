@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:client/client.dart';
 import 'package:client/src/exceptions/exceptions.dart';
 import 'package:dio/dio.dart';
